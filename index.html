@@ -1,47 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="./dist/push-notifications-cdn.js"></script>
-    <title>Example</title>
-  </head>
-  <body>
-    <h1>Example</h1>
-    <button id="start">Start Beams</button>
-  </body>
-  <script>
-    const beamsClient = new PusherPushNotifications.Client({
-      instanceId: '2e65aab4-a26e-4cca-a9e6-b68589627a8d',
-    });
-
-    document.querySelector('#start').addEventListener('click', function() {
-      beamsClient
-        .start()
-        .then(() => {
-          console.log('Successfully started beams client');
-        })
-        .catch((err) => {
-          console.error('Error starting beams client', err);
-        });
-    });
-  </script>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE HTML>
 <!--
 	Story by HTML5 UP
@@ -138,7 +94,8 @@
 							</ul>
 						</div>
 						<div class="image">
-							<img src="images/hardware.png" />
+							<img src="" />
+							＜img src="images/hardware.png" width="500" height="300">
 						</div>
 					</section>
 
